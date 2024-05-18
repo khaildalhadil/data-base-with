@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="Al_sawadi.index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Al sawadi</title>
+    <link href="style%20%20sheet/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="style%20%20sheet/style2.css" rel="stylesheet" />
+    <link href="style%20%20sheet/default.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="style%20%20sheet/popub.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <nav>
+            <img style="height: 130px" src="images/newLogo.jpg" />
+        </nav>
+        <ul>
+            <li><a class="footer__link nav--link" href="home.aspx">Home</a></li>
+            <li><a class="footer__link nav--link " href="Attraction.aspx">Attraction</a></li>
+            <li><a class="footer__link nav--link " href="Accommodations.aspx">Accomodation</a></li>
+            <li><a class="footer__link nav--link " href="visitorInformation.aspx">Visitor Information</a></li>
+            <li><a style="background: #28b485"  class="footer__link nav--link  " href="Contact%20Us.aspx">Contact Us</a></li>
+        </ul>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+     <footer class="footer">
+            <div class="footer__logo-box">
+            <img style="height: 130px" src="images/newLogo.jpg" />
+            </div>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link"></a></li>
+                            <li class="footer__item"><a href="home.aspx" class="footer__link">Home</a></li>
+                            <li class="footer__item"><a href="Attraction.aspx" class="footer__link">Attraction</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Visitor Information</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Khaild Alhadi</a> for ms Greeshma Eliyan  <a href="#" class="footer__link">Al-Sawadi</a>.
+                        Copyright &copy; by Khaild Alhadi
+                    </p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

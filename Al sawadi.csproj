@@ -135,6 +135,7 @@
     <Content Include="video\شاطئ السوادي _ Swadai Beach.mp4" />
     <Content Include="visitorInformation.aspx" />
     <Content Include="Web.config" />
+    <Content Include="whatPeopleS.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Accommodations.aspx.cs">
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="visitorInformation.aspx.designer.cs">
       <DependentUpon>visitorInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="whatPeopleS.aspx.cs">
+      <DependentUpon>whatPeopleS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="whatPeopleS.aspx.designer.cs">
+      <DependentUpon>whatPeopleS.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

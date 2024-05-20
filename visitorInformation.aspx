@@ -396,6 +396,6 @@
         </div>
 
     <div style="display: flex; justify-content: center; padding: 30px 0;" >
-        <a style="display: block; text-align: center; background: #ebd599; color: #000; padding: 10px 30px; border-radius: 40px; font-weight: 600; box-shadow: 1px 5px 10px #444" href="#">what people seas about Al-Sawadi</a>
+        <a style="display: block; text-align: center; background: #ebd599; color: #000; padding: 10px 30px; border-radius: 40px; font-weight: 600; box-shadow: 1px 5px 10px #444" href="whatPeopleS.aspx">what people seas about Al-Sawadi</a>
     </div>
 </asp:Content>

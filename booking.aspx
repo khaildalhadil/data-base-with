@@ -13,7 +13,7 @@
     <div class="modal hidden ">
         <span class="span--popub" >✔</span>
         <button class="close-btn">&times;</button>
-        <h1 class="modal--h1" >Thinks you kahild</h1>
+        <h1 class="modal--h1" >Thanks you kahild</h1>
         <p class="modal--p">We will send an appointement<br> in this number 1243</p>
     </div>
     <div class="overlay hidden "></div>

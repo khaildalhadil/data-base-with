@@ -16,7 +16,6 @@ function valitName() {
     if (nameEl.value === '') {
         nameEl.style.cssText = `
             border-bottom: 3px solid #ff7730;
-
         `
         error = 'write you name';
         return false
@@ -75,7 +74,7 @@ btn.addEventListener('click', (e) => {
     const extra = selected.getAttribute('data-foo');
 
 
-    modalH1.innerHTML = `Thinks You ${nameEl.value}`;
+    modalH1.innerHTML = `Thanks You ${nameEl.value}`;
     modalP.innerHTML = `we will send an appointment \nin this number ${numberEl.value}\n for  ${select.value} in ${date.value} The prise is ${extra * howMnay.value} Rial `
     modal.classList.remove('hidden')
     overlay.classList.remove('hidden')

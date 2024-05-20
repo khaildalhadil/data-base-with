@@ -9,10 +9,8 @@
     color: #222;
     /* backdrop-filter: blur(10px); */
     width: 430px;
-    height: 530px;
     text-align: center;
     border-radius: 10px;
-    padding: 0px 30px;
     z-index: 2;
 }
 
@@ -23,7 +21,6 @@
 
 .modal--p {
     font-size: 20px;
-    padding-bottom: 5px;
 }
 
 .close-btn {
